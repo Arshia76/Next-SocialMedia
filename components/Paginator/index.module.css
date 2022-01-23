@@ -1,0 +1,36 @@
+.DownloadDocumentPaginatorContainer, .DoctorPaginatorContainer,
+.VisitorPaginatorContainer, .OfficePaginatorContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+.DownloadDocumentPaginator, .DoctorPaginator, .VisitorPaginator, .OfficePaginator {
+    height: 20px;
+    width: 20px;
+    margin: 0 5px;
+    border-radius: 50%;
+    background-color: white;
+    color: #041d29;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.DownloadDocumentPaginator.active, .DoctorPaginator.active, .VisitorPaginator.active, .OfficePaginator.active {
+    background-color: #ddcccc;
+    color: #041d29;
+}
+
+
+.DownloadDocumentPaginator.disabled, .DoctorPaginator.disabled, .VisitorPaginator.disabled, .OfficePaginator.disabled {
+    cursor: not-allowed;
+    display: none;
+}
+
+.DownloadDocumentPaginator.disabled a, .DoctorPaginator.disabled a, .VisitorPaginator.disabled a, .OfficePaginator.disabled a {
+    cursor: not-allowed !important;
+}

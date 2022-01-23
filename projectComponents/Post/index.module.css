@@ -1,0 +1,235 @@
+.PostInput {
+    box-shadow: 1px 1px 16px -6px rgba(0, 0, 0, 0.2), -1px -1px 16px -6px rgba(0, 0, 0, 0.2) !important;
+    padding: 10px;
+    margin-top: 25px;
+    font-size: 15px;
+    width: 100%;
+    max-width: 100%;
+}
+
+.PostOwner {
+    display: flex;
+    align-items: center;
+}
+
+.PostOwner img {
+    width: 40px !important;
+    height: 40px !important;
+    border-radius: 50%;
+    object-fit: contain;
+    margin-left: 10px;
+    min-width: 40px !important;
+    min-height: 40px !important;
+}
+
+.PostOwner div {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.PostOwner h3 {
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.PostOwner span {
+    color: #C2C2C2;
+    font-size: 13px;
+}
+
+.PostOwner :last-child img {
+    width: 55px !important;
+    height: 55px !important;
+    min-width: 55px !important;
+    min-height: 55px !important;
+}
+
+.PostBody {
+    width: 600px;
+    margin-bottom: 25px;
+    margin-top: 30px;
+}
+
+.PostBody img {
+    width: 600px !important;
+    height: 400px !important;
+    min-height: 400px !important;
+    min-width: 600px !important;
+    object-fit: cover;
+}
+
+.PostBody p {
+    margin-top: 40px;
+}
+
+.Actions {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    margin-bottom: 25px;
+    border-bottom: 1px solid #EAEEE5;
+    padding-bottom: 15px;
+}
+
+.Actions div {
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+}
+
+.Actions :nth-child(3) {
+    flex: 1;
+}
+
+.Actions img {
+    width: 25px !important;
+    height: 25px !important;
+    object-fit: contain;
+    min-width: 25px !important;
+    min-height: 25px !important;
+}
+
+.Actions span {
+    color: #C7C7C7;
+    margin-left: 5px;
+}
+
+
+.PostComment {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    padding: 0 5px;
+    margin-bottom: 15px;
+}
+
+.PostComment :first-child h3 {
+    margin-right: 5px;
+}
+
+
+.PostComment div {
+    display: flex;
+    align-items: center;
+    margin-left: 0 !important;
+}
+
+.PostComment img {
+    width: 40px !important;
+    height: 40px !important;
+    border-radius: 50%;
+    object-fit: contain;
+    min-width: 40px !important;
+    min-height: 40px !important;
+    margin: 0 !important;
+}
+
+.PostComment h3 {
+    color: #C3CDB4;
+    margin-bottom: 4px;
+}
+
+.PostComment p {
+    word-wrap: break-word;
+    font-size: 14px;
+    text-align: justify;
+    margin-left: 0 !important;
+}
+
+.PostComment span {
+    color: #D8D8D8;
+    font-size: 13px;
+}
+
+.PostComment :nth-child(2) {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.PostCommentActions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.PostCommentActions span {
+    color: #D8D8D8;
+    font-size: 13px;
+    margin-top: 4px;
+}
+
+.PostCommentActions div {
+    display: flex !important;
+    align-items: flex-end !important;
+    flex: 0 !important;
+}
+
+.PostCommentActions div span {
+    color: #C4C4C4;
+    font-size: 13px;
+}
+
+.PostCommentActions img {
+    align-self: flex-end !important;
+    width: 25px !important;
+    height: 25px !important;
+    object-fit: contain;
+    min-width: 25px !important;
+    min-height: 25px !important;
+    margin-right: 4px !important;
+}
+
+.Comment {
+    display: flex;
+    align-items: center;
+}
+
+.Comment img {
+    width: 40px !important;
+    height: 40px !important;
+    object-fit: contain;
+    border-radius: 50%;
+    min-height: 40px !important;
+    min-width: 40px !important;
+}
+
+.Comment div {
+    display: flex;
+    align-items: center;
+}
+
+.Comment div img {
+    width: 25px !important;
+    height: 25px !important;
+    object-fit: contain;
+    margin-left: 5px;
+    min-height: 25px !important;
+    min-width: 25px !important;
+}
+
+
+.Comment div input {
+    padding: 5px;
+}
+
+.CommentSendBtn img {
+    width: 25px !important;
+    height: 25px !important;
+    min-width: 25px !important;
+    min-height: 25px !important;
+}
+
+/*.CommentAttachmentBtn img {*/
+/*    width: 50px !important;*/
+/*    height: 50px !important;*/
+/*    min-width: 50px !important;*/
+/*    min-height: 50px !important;*/
+/*}*/
+
+
+
+
+
+
+

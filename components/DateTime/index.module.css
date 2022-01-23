@@ -1,0 +1,42 @@
+.DateTimeContainer {
+    margin-left: 10px;
+    width: 100%;
+}
+
+.BirthDateContainer .rmdp-day,.BirthDateContainer .rmdp-week-day {
+    border: 1px solid #e7dbdb !important;
+}
+
+.BirthDateContainer .rmdp-ym .rmdp-day span {
+    border-radius: 0 !important;
+}
+
+.BirthDateContainer .rmdp-day span {
+    border-radius: 0 !important;
+}
+
+.BirthDateContainer .rmdp-rtl .rmdp-left i {
+    margin-top: 7px !important;
+}
+
+.BirthDateContainer .rmdp-rtl .rmdp-right i {
+    margin-top: 7px !important;
+    margin-right: 1px !important;
+}
+
+.BirthDateContainer .rmdp-header-values span {
+    font-size: 18px !important;
+}
+
+.Bottom {
+    width: 100%;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    padding: 6px 9px !important;
+    background-color: white !important;
+    box-shadow: 2px 2px 2px -1px rgba(0, 0, 0, 0.16);
+}
+
+
+

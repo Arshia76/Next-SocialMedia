@@ -1,0 +1,137 @@
+.InputField.BirthDateField, .InputField.AuthField {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #F4F8F7;
+    padding: 10px;
+    font-size: 1.4em;
+    margin: 10px 0;
+    width: 100%;
+    border: 1px solid #DCE0E4;
+}
+
+.InputField.SelectField {
+    background-color: #F4F8F7;
+    color: black;
+    display: flex;
+    align-items: flex-start;
+}
+
+.InputField.SelectField img {
+    width: 20px !important;
+    height: 20px !important;
+    min-width: 20px !important;
+    min-height: 20px !important;
+    object-fit: contain;
+    margin-left: 5px !important;
+}
+
+.InputField.ChatField {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.InputField.ChatField img {
+    width: 25px !important;
+    height: 25px !important;
+    min-width: 25px !important;
+    min-height: 25px !important;
+}
+
+
+.InputField.ChatField img:hover {
+    cursor: pointer;
+}
+
+
+.InputField.SearchField {
+    background-color: #758C5C;
+    border-radius: 5px;
+    padding: 13px 10px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    font-size: 1.3em;
+}
+
+.InputField.AuthField img, .InputField.BirthDateField img {
+    width: 22px !important;
+    height: 22px !important;
+    object-fit: contain;
+}
+
+.InputField.SearchField img {
+    width: 20px !important;
+    height: 16px !important;
+    object-fit: contain;
+}
+
+
+.InputField.BirthDateField:focus-within, .InputField.AuthField:focus-within {
+    border: 1px solid aqua;
+}
+
+
+.InputGroup {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    width: 100%;
+    margin-right: 1px;
+}
+
+.InputGroup.ChatGroup {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding-left: 2px;
+}
+
+.InputGroup.ChatGroup img {
+    width: 20px !important;
+    height: 20px !important;
+    min-width: 20px !important;
+    min-height: 20px !important;
+}
+
+
+.Input.AuthInput, .Input.BirthDateInput {
+    background-color: #F4F8F7;
+    padding: 5px;
+    border-radius: 2px;
+    color: black;
+    width: 100%;
+}
+
+.Input.SelectInput {
+    font-size: 14px;
+    border: 1px solid black;
+    padding: 5px;
+    outline: none;
+    width: 100%;
+}
+
+.Input.ChatInput {
+    padding: 10px 5px;
+    border: none;
+    outline: none;
+    width: 100%;
+}
+
+.Input.SearchInput {
+    margin-right: 5px;
+    color: white;
+    width: 100%;
+}
+
+.Input.SearchInput::placeholder {
+    color: #E2E2E2;
+}
+
+.Input.AuthInput::placeholder, .Input.BirthDateInput::placeholder {
+    color: #3DB697;
+}
+
+

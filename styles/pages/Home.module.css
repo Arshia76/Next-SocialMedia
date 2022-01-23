@@ -1,0 +1,11 @@
+.MainBody {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    padding: 20px 45px;
+    background-color: rgba(245, 245, 245, 0.42);
+    min-height: 90vh;
+}
+
+.Middle {
+    padding: 0 20px;
+}

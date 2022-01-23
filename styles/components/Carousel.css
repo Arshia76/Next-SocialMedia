@@ -1,0 +1,8 @@
+.PostCarousel .slick-dots {
+    display: flex !important;
+    justify-content: center !important;
+}
+
+.PostCarousel .slick-dots li {
+    width: 20px !important;
+}

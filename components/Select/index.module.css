@@ -1,0 +1,142 @@
+.SelectWrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 10px;
+}
+
+.SelectWrapper .error {
+    border: 1px solid red;
+}
+
+.SelectGroup {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.SelectGroup h4 {
+    color: black;
+    margin-top: 5px;
+    font-size: 1.1em;
+}
+
+.SelectLabel {
+    margin-top: 0;
+    color: black;
+    font-size: 1.2em;
+}
+
+.AddDoctorContainer, .AddUserContainer, .AddOfficeContainer, .TransferFromShafadocContainer {
+    width: 100%;
+}
+
+.RowSelectorContainer {
+    margin-right: 15px;
+    width: 150px;
+}
+
+.AddDoctorSelect__menu, .AddUserSelect__menu, .AddOfficeSelect__menu, .TransferFromShafadocSelect__menu {
+    width: 100% !important;
+}
+
+
+.AddDoctorSelect__control, .AddUserSelect__control, .AddOfficeSelect__control, .TransferFromShafadocSelect__control {
+    padding: 10px !important;
+    border-radius: 10px !important;
+    font-size: 1.2em;
+    background-color: white !important;
+    color: #041d29 !important;
+    /*border: 1px solid rgba(255, 255, 255, 0.21) !important;*/
+    border: 1px solid transparent !important;
+}
+
+.RowSelector__control {
+    font-size: 1em !important;
+    background-color: white !important;
+    color: #041d29 !important;
+    border: 1px solid transparent !important;
+}
+
+
+.AddDoctorSelect__placeholder, .AddDoctorSelect__indicator, .AddUserSelect__placeholder, .AddUserSelect__indicator, .AddOfficeSelect__indicator,
+.TransferFromShafadocSelect__palceholder, .TransferFromShafadocSelect__indicator,
+.RowSelector__placeholder {
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.AddDoctorSelect__indicator-separator, .AddUserSelect__indicator-separator, .AddOfficeSelect__indicator-separator,
+.TransferFromShafadocSelect__indicator-separator, .RowSelector__indicator-separator {
+    background-color: rgba(0, 0, 0, .5) !important;
+}
+
+.AddDoctorSelect__single-value, .AddUserSelect__single-value, .AddOfficeSelect__single-value, .TransferFromShafadocSelect__single-value,
+.AddDoctorSelect__input, .AddUserSelect__input, .AddOfficeSelect__input,
+.TransferFromShafadocSelect__input {
+    color: black !important;
+    font-size: 1.3em !important;
+    overflow: visible !important;
+    width: 50px !important;
+}
+
+.RowSelector__value-container input {
+    width: 90px !important;
+    left: 0 !important;
+}
+
+.RowSelector__input, .RowSelector__single-value {
+    color: black !important;
+    font-size: 1.1em !important;
+    overflow: visible !important;
+}
+
+.RowSelector__placeholder {
+    margin-left: 15px !important;
+}
+
+
+.AddDoctorSelect__option, .AddUserSelect__option, .AddOfficeSelect__option, .TransferFromShafadocSelect__option {
+    font-size: 1.3em !important;
+}
+
+.RowSelector__option {
+    font-size: 1em !important;
+    color: #041d29 !important;
+}
+
+.AddOfficeSelect__control--is-focused, .AddDoctorSelect__control--is-focused,
+.AddUserSelect__control--is-focused, .TransferFromShafadocSelect__control--is-focused {
+    box-shadow: 0 0 0 1px #DEE2E6 !important;
+}
+
+.error .AddOfficeSelect__control--is-focused, .error .AddDoctorSelect__control--is-focused,
+.error .AddUserSelect__control--is-focused, .error .TransferFromShafadocSelect__control--is-focused {
+    box-shadow: 0 0 0 1px #DEE2E6 !important;
+    padding: 9px !important;
+}
+
+.error .AddOfficeSelect__control, .error .AddDoctorSelect__control,
+.error .AddUserSelect__control, .error .TransferFromShafadocSelect__control {
+    padding: 8px !important;
+}
+
+
+
+.RowSelector__control--is-focused {
+    box-shadow: 0 0 0 1px #DEE2E6 !important;
+}
+
+
+@media (max-width: 600px) {
+    .AddDoctorContainer, .AddUserContainer, .AddOfficeContainer, .TransferFromShafadocContainer {
+        width: 100%;
+    }
+
+    .RowSelectorContainer {
+        display: none;
+    }
+}

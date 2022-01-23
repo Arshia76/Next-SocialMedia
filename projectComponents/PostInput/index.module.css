@@ -1,0 +1,57 @@
+.PostInputContainer {
+    box-shadow: 1px 1px 16px -6px rgba(0, 0, 0, 0.2), -1px -1px 16px -6px rgba(0, 0, 0, 0.2) !important;
+    padding: 10px;
+}
+
+.Input {
+    padding: 5px;
+    background-color: #f5f1f1;
+    display: flex;
+    align-items: center;
+    border-radius: 25px;
+    height: auto;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.Input img {
+    width: 35px !important;
+    height: 35px !important;
+    border-radius: 50%;
+    min-height: 35px !important;
+    min-width: 35px !important;
+    flex: 1;
+}
+
+.Icons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.Icons img {
+    width: 20px !important;
+    height: 20px !important;
+    min-width: 20px !important;
+    min-height: 20px !important;
+    object-fit: contain;
+    margin-right: 10px !important;
+}
+
+.Icons img:hover {
+    cursor: pointer;
+}
+
+.Input textarea {
+    resize: none;
+    color: rgba(0, 0, 0, 0.86);
+    flex: 2;
+    margin-right: 10px;
+    width: 100%;
+    font-size: 16px;
+    height: auto;
+}
+
+.Input input::placeholder {
+    color: #91A57D;
+}

@@ -1,0 +1,64 @@
+.Navbar {
+    background-color: #90A877;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 1000000;
+}
+
+
+.NavbarUl {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    width: 100%;
+    padding: 10px;
+}
+
+
+.NavbarThirdCol {
+    display: flex;
+    align-items: center;
+}
+
+.NavbarLi {
+    padding: 0 13px;
+}
+
+.NavbarLi svg {
+    height: 22px !important;
+    width: 22px !important;
+    object-fit: cover;
+    min-height: 22px;
+    min-width: 22px;
+}
+
+.NavbarLi:hover {
+    cursor: pointer;
+}
+
+.NavbarLi.Logo img {
+    width: 60px !important;
+    object-fit: cover;
+    min-width: 60px !important;
+}
+
+.Avatar img {
+    width: 50px !important;
+    height: 50px !important;
+    min-height: 50px !important;
+    min-width: 50px !important;
+}
+
+@media (max-width: 768px) {
+    .NavbarUl {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: start;
+    }
+}
+
+
+
